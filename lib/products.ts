@@ -18,7 +18,7 @@ export const products: Product[] = [
     slug: "mate-imperial-liso",
     name: "Mate Imperial Liso",
     category: "Imperiales",
-    price: 27900,
+    price: 22900,
     oldPrice: null,
     description:
       "Mate imperial de cuero liso, con virola cincelada en alpaca y base de apoyo. Un clásico sobrio para el uso de todos los días, con el peso y la calidez del cuero curtido.",
@@ -38,7 +38,7 @@ export const products: Product[] = [
     slug: "mate-imperial-algarrobo",
     name: "Mate Imperial Algarrobo",
     category: "Imperiales",
-    price: 31500,
+    price: 18900,
     oldPrice: null,
     description:
       "Cuerpo tallado en madera de algarrobo con virola de alpaca grabada en guarda geométrica. Cada pieza muestra la veta natural de la madera, así que no hay dos iguales.",
@@ -58,8 +58,8 @@ export const products: Product[] = [
     slug: "mate-torpedo-premium-base",
     name: "Mate Torpedo Premium con Base",
     category: "Torpedos",
-    price: 34900,
-    oldPrice: 39900,
+    price: 32000,
+    oldPrice: null,
     description:
       "Torpedo de cuero grabado a mano con motivos florales, virola y base de alpaca dorada a juego. Una pieza de gala pensada para lucirse en la mesa.",
     features: [
@@ -78,7 +78,7 @@ export const products: Product[] = [
     slug: "mate-imperial-cincelado",
     name: "Mate Imperial Cincelado",
     category: "Imperiales",
-    price: 38900,
+    price: 24000,
     oldPrice: null,
     description:
       "Imperial íntegramente bañado y cincelado a mano, con guarda de hojas en la virola. Brillo y detalle para quienes buscan la versión más lujosa del clásico imperial.",
@@ -98,7 +98,7 @@ export const products: Product[] = [
     slug: "mate-criollo",
     name: "Mate Criollo",
     category: "Calabaza",
-    price: 14500,
+    price: 14900,
     oldPrice: null,
     description:
       "El mate de calabaza más tradicional, curado y con virola simple de cuero. Liviano, noble y con el sabor que le da el tiempo. Ideal para arrancar o para el mate de todos los días.",
@@ -118,7 +118,7 @@ export const products: Product[] = [
     slug: "mate-torpedo-cincelado",
     name: "Mate Torpedo Cincelado",
     category: "Torpedos",
-    price: 36500,
+    price: 28900,
     oldPrice: null,
     description:
       "Silueta torpedo bañada y cincelada a mano, con base de apoyo a juego. Una pieza brillante y de peso noble para quienes quieren un mate que se note.",
@@ -138,7 +138,7 @@ export const products: Product[] = [
     slug: "bombilla-pico-loro-inox",
     name: "Bombilla Pico de Loro Acero Inox",
     category: "Bombillas",
-    price: 7900,
+    price: 4500,
     oldPrice: null,
     description:
       "Bombilla de acero inoxidable con boquilla pico de loro, más cómoda para sesiones largas de mate. Filtro perforado fácil de limpiar y de larga vida útil.",
@@ -158,7 +158,7 @@ export const products: Product[] = [
     slug: "yerba-baldo-500g",
     name: "Yerba Mate Baldo 500g",
     category: "Yerbas",
-    price: 4200,
+    price: 7500,
     oldPrice: null,
     description:
       "Yerba mate Baldo, procedente de reservas naturales, en paquete de 500g. La compañera de siempre para cebar como corresponde.",
@@ -175,13 +175,13 @@ export const products: Product[] = [
   },
   {
     id: 9,
-    slug: "termo-1l-media-manija",
-    name: "Termo 1L Media Manija Acero Inox",
+    slug: "termo-1l-media-manija-negro",
+    name: "Termo 1L Media Manija — Negro",
     category: "Termos",
-    price: 26900,
+    price: 18900,
     oldPrice: null,
     description:
-      "Termo de acero inoxidable de 1 litro con media manija y pico cebador, para mantener el agua a temperatura toda la tarde. El compañero ideal de cualquier mate.",
+      "Termo de acero inoxidable de 1 litro con media manija y pico cebador, en color negro, para mantener el agua a temperatura toda la tarde. El compañero ideal de cualquier mate.",
     features: [
       "Acero inoxidable",
       "Capacidad: 1 litro",
@@ -191,6 +191,26 @@ export const products: Product[] = [
     images: ["/images/products/termo-1l-media-manija.jpeg"],
     stock: 18,
     featured: true,
+    badge: "Nuevo",
+  },
+  {
+    id: 14,
+    slug: "termo-1l-media-manija-gris",
+    name: "Termo 1L Media Manija — Gris",
+    category: "Termos",
+    price: 18900,
+    oldPrice: null,
+    description:
+      "Termo de acero inoxidable de 1 litro con media manija y pico cebador, en color gris, para mantener el agua a temperatura toda la tarde. El compañero ideal de cualquier mate.",
+    features: [
+      "Acero inoxidable",
+      "Capacidad: 1 litro",
+      "Media manija ergonómica",
+      "Pico cebador con traba",
+    ],
+    images: ["/images/products/termo-1l-media-manija-gris.png"],
+    stock: 18,
+    featured: false,
     badge: "Nuevo",
   },
   {
@@ -232,6 +252,46 @@ export const products: Product[] = [
     stock: 8,
     featured: true,
     badge: "Premium",
+  },
+  {
+    id: 12,
+    slug: "yerba-canarias-tradicional-500g",
+    name: "Yerba Mate Canarias Tradicional 500g",
+    category: "Yerbas",
+    price: 7500,
+    oldPrice: null,
+    description:
+      "Yerba mate Canarias, sabor tradicional, en paquete de 500g. Un clásico de siempre para cebar en cualquier momento del día.",
+    features: [
+      "Paquete de 500g",
+      "Sabor tradicional",
+      "Industria brasileña",
+      "Ideal para consumo diario",
+    ],
+    images: ["/images/products/yerba-canarias-tradicional-500g.png"],
+    stock: 50,
+    featured: false,
+    badge: null,
+  },
+  {
+    id: 13,
+    slug: "matera-ecocuero",
+    name: "Matera Ecocuero",
+    category: "Accesorios",
+    price: 11900,
+    oldPrice: null,
+    description:
+      "Matera de ecocuero con costura a mano y asas reforzadas, pensada para llevar el mate, el termo y la yerba juntos y prolijos a donde vayas.",
+    features: [
+      "Ecocuero resistente",
+      "Costura reforzada a mano",
+      "Asas dobles",
+      "Espacio para mate, termo y yerba",
+    ],
+    images: ["/images/products/matera-ecocuero.png"],
+    stock: 20,
+    featured: true,
+    badge: "Nuevo",
   },
 ];
 
