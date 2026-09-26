@@ -17,11 +17,11 @@ export const siteConfig = {
   // Ejemplo: 54 9 11 2345-6789 -> "5491123456789"
   whatsappNumber: "5491121591225",
 
-  email: "hola@terramates.com.ar",
+  email: "terramatess.arg@gmail.com",
   phoneDisplay: "+54 9 11 2159-1225",
 
-  instagram: "https://instagram.com/terramates",
-  tiktok: "https://tiktok.com/@terramates",
+  instagram: "https://instagram.com/terramatess.arg",
+  tiktok: "https://tiktok.com/@terramatess.arg",
 
   shipping: {
     flatRate: 4500,
